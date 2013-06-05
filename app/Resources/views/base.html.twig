@@ -5,9 +5,14 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('bundles/bmatznerfoundation/css/foundation.min.css') }}" />
+
     </head>
     <body>
         {% block body %}{% endblock %}
+
+        <script type="text/javascript" src="{{ asset('bundles/bmatznerjquery/js/jquery.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/bmatznerfoundation/js/foundation.min.js') }}"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>

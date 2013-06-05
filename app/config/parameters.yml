@@ -1,0 +1,15 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_sqlite
+    database_host: simpleqa
+    database_port: null
+    database_path: %kernel.root_dir%/data/simpleqa.db3
+    database_name:  simpleqa
+    database_user: simpleqa
+    database_password: simpleqa
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: ThisTokenIsNotSoSecretChangeIt

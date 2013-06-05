@@ -1,0 +1,16 @@
+{% extends "::base.html.twig" %}
+{% block body %}
+
+    <div class="row">
+        <div class="large-6 columns">
+            <h1 class="title">Questions</h1>
+        </div>
+    </div>
+    {% for question in questions %}
+        <div class="row">
+            <div class="large-offset-1 large-11 columns">
+                <p>{{ question }}</p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

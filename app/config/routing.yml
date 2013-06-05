@@ -1,0 +1,5 @@
+gajetzki_simple_qa:
+    resource: "@GajetzkiSimpleQABundle/Controller/"
+    type:     annotation
+    prefix:   /
+
